@@ -1,0 +1,11 @@
+img.estilo1{
+    height: 350px; 
+    width: 250px;
+    padding: 10px;
+}
+img.estilo1:hover{
+    -webkit-transform: scale(1.05);
+     -ms-transform: scale(1.05);
+     transform: scale(1.05);
+     transition: transform 1.2s;
+}

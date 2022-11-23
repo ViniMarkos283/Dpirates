@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+body{
+    background-color: rgb(10, 10, 10);
+}
+.container{
+    background-color: rgb(30, 30, 30);
+    border: 20px;
+    width: 80%;
+    height: 675px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.container img{
+    width:350px;
+    height: 500px;
+    
+}
+.container h2{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: 2px underline;
+    letter-spacing: 2px;
+}
+.container h1{
+    padding-bottom:80px;
+    font-size: 50px;
+    color: rgba(83, 184, 210, 0.826);
+    /* letter-spacing: 2px; */
+}
+.container p{
+    color: #fff;
+    font-size: 20px;
+}
+.container table{
+    padding: 20px;
+}
+#texto{
+    font-family: 'Work Sans', sans-serif;
+    padding-right: 100px;
+    padding-left: 30px;
+    /* padding-bottom:120px; */
+}
+.personagens{
+   border-radius: 20px;
+    background-color: rgb(30, 30, 30);
+}
+.personagens-table{
+    width: auto;
+    height: auto;
+}
+#personagens-texto{
+    font-family: 'Work Sans', sans-serif;
+    color:#fff;   
+    text-align: center;
+    padding-top: 10px;
+}
+.personagens-table h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align:center;
+    color:#fff; 
+}
+.personagens-table p{
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 5px;
+    padding-right: 50px;
+    font-size: 16px;
+    text-align: left;
+    color:#fff;   
+}
+.personagens-table img{
+   border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    padding-left: 25px;
+}
+#barra{
+    width: 150px;
+}
+.btn{
+    padding-left: 20px;
+}
+#botton{
+    width: 350px;
+    background-color: rgba(83, 184, 210, 0.826);
+    border-radius: 70px; 
+    color: #fff;
+    font-size: large; 
+}
+#botton a{
+   text-decoration: none;
+}
+
+#star{
+    /* text-align: right; */
+    /* align-items: right; */
+    /* left: 2000px; */
+    padding-left: 460px;
+    width: 205px;
+    height: 66px;
+}

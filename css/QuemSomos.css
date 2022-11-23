@@ -1,0 +1,121 @@
+body.estilo1{
+    background-color: rgb(15, 15, 15) ;
+    
+}
+
+table.estilo1{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+}
+.estilo1 img{
+    width: 300px;
+    height: 150px;
+}
+p.estilo2{
+    
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+td.estilo3{
+    color:white;
+}
+tr.estilo3{
+    color: white;
+
+}
+
+table.estilo4 {
+    align-items: right;
+    background-color: aqua;
+}
+tr.estilo5{
+    align-items: right;
+    color:white ;
+}
+
+img.estilo1{
+    width: 600px;
+    height: 300px;
+
+
+}
+img.estilo1:hover{
+    -webkit-transform: scale(1,1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform 0.9s;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 100px;
+
+}
+.item{
+    text-align: center ;
+
+}
+img.estilo2{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+img.estilo2:hover{
+    -webkit-transform: scale(1,1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform 0.9s;
+}
+img.estilo5{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+section{
+    width: 500px;
+    margin: 50px auto;
+}
+.face{
+    width: 600px;
+    height: 350px;
+    perspective: 700px;
+    align-items: center;
+
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 700ms;
+}
+
+.front{
+    background-color: rgb(15, 15, 15);
+    z-index: 1;
+}
+
+.back{
+    background-color:white;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.face:hover .front{
+transform: rotateY(180deg);
+z-index: 0;
+}
+
+.face:hover .back{
+    transform: rotateY(0);
+    z-index: 1;
+}
